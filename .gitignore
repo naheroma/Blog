@@ -1,25 +1,7 @@
-# PyCharm
-.idea/
-
-# Virtual environment
-venv/
-
-# Compiled Python files
 *.pyc
-*.pyo
-__pycache__/
-
-# Log files
-*.log
-
-# Debugging files
-*.bak
-*.swp
-*.swo
-
-# Database files
-*.sqlite3
-
-# Other generated files
-*.pyc
-*.pyo
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
