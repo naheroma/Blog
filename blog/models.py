@@ -10,7 +10,7 @@ class Post(models.Model):
     fechaDeCreacion = models.DateTimeField(default=timezone.now)
     fechaDePublicacion = models.DateTimeField(blank=True, null=True)
 
-    def publicar(self):
+    def publish(self):
         self.fechaDePublicacion = timezone.now()
         self.save()
 
